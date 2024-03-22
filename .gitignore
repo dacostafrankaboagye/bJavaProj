@@ -1,0 +1,19 @@
+# Spring Boot
+/target/
+*.jar
+*.war
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
