@@ -1,0 +1,6 @@
+2024-03-24 18:10:17.416239Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRIES" not found (this database is empty); SQL statement:
+SELECT * FROM countries [42104-224]
+2024-03-24 18:10:41.644820Z jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COUNTRIES" not found (this database is empty); SQL statement:
+SELECT * FROM countries [42104-224]
