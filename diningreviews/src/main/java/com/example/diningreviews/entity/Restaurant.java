@@ -2,13 +2,12 @@ package com.example.diningreviews.entity;
 
 
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Data; // getter, setter, toString, equals, hashcode -> are provided
 
 import java.util.Map;
-import java.util.Objects;
 
 @Entity
-@Table(name = "RESTAURANT")
+@Table(name = "RESTAURANT ENTITY")
 @Data
 public class Restaurant {
 
@@ -32,27 +31,5 @@ public class Restaurant {
         this.reviewScores = reviewScores;
     }
 
-    // as a good practice
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Restaurant that)) return false;
-        return Objects.equals(this.getId(), that.getId()) &&
-                Objects.equals(this.getName(), that.getName()) &&
-                Objects.equals(this.getReviewScores(), that.getReviewScores());
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(this.getId(), this.getName(), this.getReviewScores());
-    }
-
-    @Override
-    public String toString() {
-        return "Restaurant{" +
-                "id=" + this.getId() +
-                ", name='" + this.getName() + '\'' +
-                ", reviewScores=" + this.getReviewScores() +
-                '}';
-    }
 }

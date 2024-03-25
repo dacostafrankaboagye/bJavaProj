@@ -1,14 +1,12 @@
 package com.example.diningreviews.entity;
 
-import com.example.diningreviews.entity.Restaurant;
+import com.example.diningreviews.enums.ReviewStatus;
 import jakarta.persistence.*;
 import lombok.Data;
 
-import java.util.Objects;
-
 @Entity
-@Table(name = "DININGREVIEWS")
-@Data
+@Table(name = "DININGREVIEWS ENTITY")
+@Data // getter, setter, toString, equals, hashcode -> are provided
 public class Diningreviews {
 
     @Id
@@ -33,6 +31,9 @@ public class Diningreviews {
     @Column(name = "COMMENTARY")
     private String commentary;
 
+    @Enumerated(EnumType.STRING)
+    private ReviewStatus status;
+
     public Diningreviews() {
     }
 
@@ -49,22 +50,5 @@ public class Diningreviews {
         this.dairyScore = dairyScore;
         this.commentary = commentary;
     }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Diningreviews that)) return false;
-        return Objects.equals(getId(), that.getId()) && Objects.equals(getUserName(), that.getUserName()) && Objects.equals(getRestaurantId(), that.getRestaurantId()) && Objects.equals(getPeanutScore(), that.getPeanutScore()) && Objects.equals(getEggScore(), that.getEggScore()) && Objects.equals(getDairyScore(), that.getDairyScore()) && Objects.equals(getCommentary(), that.getCommentary());
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId(), getUserName(), getRestaurantId(), getPeanutScore(), getEggScore(), getDairyScore(), getCommentary());
-    }
-
-
-    // as a good practice
-
-
 
 }
