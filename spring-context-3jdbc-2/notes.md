@@ -1,0 +1,3 @@
+- you can add the @Primary to make it default to that specific class
+- or
+- you can specify a @Qualifier
