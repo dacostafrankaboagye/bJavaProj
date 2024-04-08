@@ -16,8 +16,8 @@ public class ProjectConfig {
     public DataSource dataSource(){
         var dataSource = new DriverManagerDataSource();
         dataSource.setUrl("jdbc:mysql://localhost/demo?serverTimezone=America/New_York"); // we are using the default port "the db name is "demo" "
-        dataSource.setUsername("root");
-        dataSource.setPassword("70722023Frank");
+        dataSource.setUsername("===");
+        dataSource.setPassword("===");
 
         return dataSource;
 
