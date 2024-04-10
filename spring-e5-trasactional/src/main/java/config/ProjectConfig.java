@@ -20,7 +20,7 @@ public class ProjectConfig {
         DriverManagerDataSource myDataSource = new DriverManagerDataSource();
         myDataSource.setUrl("jdbc:mysql://localhost/demo?serverTimezone=America/New_York");
         myDataSource.setUsername("root");
-        myDataSource.setPassword("70722023Frank");
+        myDataSource.setPassword("--");
         return myDataSource;
     }
 
