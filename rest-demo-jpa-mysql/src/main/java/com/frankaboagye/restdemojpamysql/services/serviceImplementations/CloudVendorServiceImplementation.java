@@ -1,5 +1,6 @@
 package com.frankaboagye.restdemojpamysql.services.serviceImplementations;
 
+import com.frankaboagye.restdemojpamysql.exceptions.CloudVendorNotFoundException;
 import com.frankaboagye.restdemojpamysql.models.CloudVendor;
 import com.frankaboagye.restdemojpamysql.repositories.CloudVendorRepository;
 import com.frankaboagye.restdemojpamysql.services.CloudVendorService;
@@ -55,7 +56,11 @@ public class CloudVendorServiceImplementation implements CloudVendorService {
     @Override
     public CloudVendor getCloudVendor(Integer vendorId) {
         Optional<CloudVendor> cloudVendorOptional =  this.cloudVendorRepository.findById(vendorId);
-        return cloudVendorOptional.orElse(null);
+        // what of when we do not get a result??
+        if(cloudVendorOptional.isEmpty()){
+            throw new CloudVendorNotFoundException("Does not Exist");
+        }
+        return cloudVendorOptional.get();
     }
 
     @Override
