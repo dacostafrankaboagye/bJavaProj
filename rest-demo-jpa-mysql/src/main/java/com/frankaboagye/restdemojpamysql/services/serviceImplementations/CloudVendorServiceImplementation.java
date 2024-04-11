@@ -60,6 +60,8 @@ public class CloudVendorServiceImplementation implements CloudVendorService {
         if(cloudVendorOptional.isEmpty()){
             throw new CloudVendorNotFoundException("Does not Exist");
         }
+
+        
         return cloudVendorOptional.get();
     }
 
