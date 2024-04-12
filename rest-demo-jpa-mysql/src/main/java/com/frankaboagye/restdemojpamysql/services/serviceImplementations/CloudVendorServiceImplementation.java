@@ -25,7 +25,7 @@ public class CloudVendorServiceImplementation implements CloudVendorService {
     }
 
     @Override
-    public String updateCloudVendor(CloudVendor cloudVendor, Integer vendorId) {
+    public String updateCloudVendor(CloudVendor cloudVendor, Long vendorId) {
         String message = "cannot update";
 
         Optional<CloudVendor> cloudVendorOptional=  this.cloudVendorRepository.findById(vendorId);
@@ -42,7 +42,7 @@ public class CloudVendorServiceImplementation implements CloudVendorService {
     }
 
     @Override
-    public String deleteCloudVendor(Integer vendorId) {
+    public String deleteCloudVendor(Long vendorId) {
         String message = "cannot delete vendor";
         Optional<CloudVendor> cloudVendorOptional = this.cloudVendorRepository.findById(vendorId);
         if(cloudVendorOptional.isPresent()){
@@ -54,7 +54,7 @@ public class CloudVendorServiceImplementation implements CloudVendorService {
     }
 
     @Override
-    public CloudVendor getCloudVendor(Integer vendorId) {
+    public CloudVendor getCloudVendor(Long vendorId) {
         Optional<CloudVendor> cloudVendorOptional =  this.cloudVendorRepository.findById(vendorId);
         // what of when we do not get a result??
         if(cloudVendorOptional.isEmpty()){

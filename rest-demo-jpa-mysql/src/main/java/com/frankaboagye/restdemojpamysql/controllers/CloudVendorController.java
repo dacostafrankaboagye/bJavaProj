@@ -24,7 +24,7 @@ public class CloudVendorController {
     }
 
     @GetMapping("/getVendor/{vendorId}")
-    public ResponseEntity<Object> getCloudVendorDetails(@PathVariable("vendorId") Integer vendorId){
+    public ResponseEntity<Object> getCloudVendorDetails(@PathVariable("vendorId") Long vendorId){
         return ResponseHandler.responseBuilder(
                 "Here is the Vendor Details",
                 HttpStatus.OK,
@@ -43,12 +43,12 @@ public class CloudVendorController {
     }
 
     @PutMapping("/updateVendor/{vendorId}")
-    public String updateCloudVendorDetails(@RequestBody CloudVendor cloudVendor, @PathVariable("vendorId") Integer vendorId){
+    public String updateCloudVendorDetails(@RequestBody CloudVendor cloudVendor, @PathVariable("vendorId") Long vendorId){
         return this.cloudVendorService.updateCloudVendor(cloudVendor, vendorId);
     }
 
     @DeleteMapping("/deleteVendor/{vendorId}")
-    public String deleteCloudVendorDetails(@PathVariable("vendorId") Integer vendorId){
+    public String deleteCloudVendorDetails(@PathVariable("vendorId") Long vendorId){
         return this.cloudVendorService.deleteCloudVendor(vendorId);
     }
 
