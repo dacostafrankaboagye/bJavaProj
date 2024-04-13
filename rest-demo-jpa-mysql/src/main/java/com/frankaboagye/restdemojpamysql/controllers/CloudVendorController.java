@@ -3,6 +3,7 @@ package com.frankaboagye.restdemojpamysql.controllers;
 import com.frankaboagye.restdemojpamysql.models.CloudVendor;
 import com.frankaboagye.restdemojpamysql.responses.ResponseHandler;
 import com.frankaboagye.restdemojpamysql.services.CloudVendorService;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -24,6 +25,10 @@ public class CloudVendorController {
     }
 
     @GetMapping("/getVendor/{vendorId}")
+    @Operation(
+            summary = "gets a cloud vendor",
+            description = "Gets a cloud vendor using an ID you provide"
+    )
     public ResponseEntity<Object> getCloudVendorDetails(@PathVariable("vendorId") Long vendorId){
         return ResponseHandler.responseBuilder(
                 "Here is the Vendor Details",
