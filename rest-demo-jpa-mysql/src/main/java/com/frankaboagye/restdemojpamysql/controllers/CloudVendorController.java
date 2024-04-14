@@ -21,7 +21,7 @@ public class CloudVendorController {
 
     @GetMapping("/test")
     public String toTest(){
-        return "working...";
+        return "working alright - perfectly...";
     }
 
     @GetMapping("/getVendor/{vendorId}")
