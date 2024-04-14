@@ -1,0 +1,67 @@
+23:05:50.566 [http-nio-8080-exec-2] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:50.571 [http-nio-8080-exec-2] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:50.886 [http-nio-8080-exec-3] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:50.887 [http-nio-8080-exec-3] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:51.251 [http-nio-8080-exec-4] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:51.251 [http-nio-8080-exec-4] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:52.117 [http-nio-8080-exec-5] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:52.117 [http-nio-8080-exec-5] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:52.411 [http-nio-8080-exec-6] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:52.412 [http-nio-8080-exec-6] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:52.815 [http-nio-8080-exec-7] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:52.815 [http-nio-8080-exec-7] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:53.110 [http-nio-8080-exec-8] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:53.111 [http-nio-8080-exec-8] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:53.314 [http-nio-8080-exec-9] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:53.315 [http-nio-8080-exec-9] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:53.505 [http-nio-8080-exec-10] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:53.505 [http-nio-8080-exec-10] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:53.857 [http-nio-8080-exec-1] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:53.858 [http-nio-8080-exec-1] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:54.091 [http-nio-8080-exec-2] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:54.092 [http-nio-8080-exec-2] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:54.279 [http-nio-8080-exec-3] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:54.280 [http-nio-8080-exec-3] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:54.478 [http-nio-8080-exec-4] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:54.478 [http-nio-8080-exec-4] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:55.138 [http-nio-8080-exec-5] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:55.138 [http-nio-8080-exec-5] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:55.403 [http-nio-8080-exec-6] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:55.404 [http-nio-8080-exec-6] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:55.613 [http-nio-8080-exec-7] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:55.613 [http-nio-8080-exec-7] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:55.796 [http-nio-8080-exec-8] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:55.796 [http-nio-8080-exec-8] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:56.378 [http-nio-8080-exec-9] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:56.378 [http-nio-8080-exec-9] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:56.596 [http-nio-8080-exec-10] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:56.596 [http-nio-8080-exec-10] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:56.808 [http-nio-8080-exec-1] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:56.809 [http-nio-8080-exec-1] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:57.035 [http-nio-8080-exec-3] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:57.035 [http-nio-8080-exec-3] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:57.303 [http-nio-8080-exec-4] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:57.303 [http-nio-8080-exec-4] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:57.917 [http-nio-8080-exec-5] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:57.917 [http-nio-8080-exec-5] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:58.123 [http-nio-8080-exec-6] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:58.123 [http-nio-8080-exec-6] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:58.338 [http-nio-8080-exec-7] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:58.338 [http-nio-8080-exec-7] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:58.557 [http-nio-8080-exec-8] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:58.557 [http-nio-8080-exec-8] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:59.150 [http-nio-8080-exec-9] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:59.151 [http-nio-8080-exec-9] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:59.407 [http-nio-8080-exec-10] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:59.408 [http-nio-8080-exec-10] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:05:59.611 [http-nio-8080-exec-1] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:05:59.611 [http-nio-8080-exec-1] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:06:00.098 [http-nio-8080-exec-2] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:06:00.098 [http-nio-8080-exec-2] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:06:00.368 [http-nio-8080-exec-3] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:06:00.368 [http-nio-8080-exec-3] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:06:00.657 [http-nio-8080-exec-4] INFO  c.f.r.c.CloudVendorController - a user tested using the testing route
+23:06:00.657 [http-nio-8080-exec-4] DEBUG c.f.r.c.CloudVendorController - debugging has started..working..
+23:06:50.924 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:06:50.951 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:06:51.000 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

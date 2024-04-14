@@ -4,6 +4,8 @@ import com.frankaboagye.restdemojpamysql.models.CloudVendor;
 import com.frankaboagye.restdemojpamysql.responses.ResponseHandler;
 import com.frankaboagye.restdemojpamysql.services.CloudVendorService;
 import io.swagger.v3.oas.annotations.Operation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -15,12 +17,18 @@ import java.util.List;
 public class CloudVendorController {
     CloudVendorService cloudVendorService;
 
+    private static final Logger logInfo = LoggerFactory.getLogger(CloudVendorController.class);
+
+
     public CloudVendorController(CloudVendorService cloudVendorService) {
         this.cloudVendorService = cloudVendorService;
     }
 
     @GetMapping("/test")
     public String toTest(){
+
+        logInfo.info("a user tested using the testing route");
+        logInfo.debug("debugging has started..working..");
         return "working alright - perfectly...";
     }
 
